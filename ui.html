@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Mining</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wallet Mining App</h1>
+        <div id="status">
+            <h3>Current Address:</h3>
+            <p id="currentAddress">None</p>
+        </div>
+        <div id="results">
+            <h3>Found Wallets:</h3>
+            <ul id="foundWallets"></ul>
+        </div>
+        <div id="controls">
+            <button id="startButton">Start</button>
+            <button id="stopButton">Stop</button>
+        </div>
+        <div id="timer">
+            <p id="timeElapsed">0s</p>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
